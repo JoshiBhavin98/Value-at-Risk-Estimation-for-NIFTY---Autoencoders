@@ -2,7 +2,7 @@
 
 1-day Value at Risk (VaR) for a long Nifty 50 position. The study compares historical simulation, a normal single-asset VaR, delta-normal VaR, rolling GARCH(1,1), Monte Carlo simulation, and Encoded VaR (a variational autoencoder).
 
-This is the Group 5 capstone for MSDSM01, supervised by Dr. Puneet Pasricha (IIT Ropar). The full write-up is [`report/FCP Report Group 5.pdf`](report/FCP%20Report%20Group%205.pdf).
+This is the Group 5 capstone for MSDSM01, supervised by Dr. Puneet Pasricha (IIT Ropar). The method notes in this repository follow that report. The PDF itself stays on disk under `report/` and is not part of the published tree.
 
 ## Results
 
@@ -41,8 +41,6 @@ On this sample, rolling GARCH and Encoded VaR are the two specifications whose r
 ├── data/
 │   ├── Nifty50_data.xlsx          # report sample, 4 Jan 2005 – 25 Sep 2023
 │   └── Nifty50_2yr.csv            # two-year extract used by one VAE draft
-├── report/
-│   └── FCP Report Group 5.pdf
 ├── Historical/                    # historical-simulation notebooks
 ├── GARCH/                         # delta-normal and GARCH notebooks
 ├── EncodedVaR/                    # variational autoencoder notebooks

@@ -18,8 +18,9 @@ env/
 *.weights.h5
 *.keras
 
-# Local figure. Not part of the published project.
+# Local figure and the capstone PDF. Kept on disk, not part of the published project.
 GARCH/Screenshot 2025-01-16 110036.png
+report/*.pdf
 
 # Nested clone of this repository, if recreated locally
 Value-at-Risk-Estimation-for-NIFTY---Autoencoders/
