@@ -1,0 +1,13 @@
+# Statistical notebooks (Historical, GARCH, Monte Carlo, single-asset).
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+arch
+tabulate
+openpyxl
+
+# Encoded VaR notebooks only.
+tensorflow

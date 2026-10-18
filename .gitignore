@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VAE weights written by the Encoded VaR notebooks
+*.h5
+*.weights.h5
+*.keras
+
+# Local figure. Not part of the published project.
+GARCH/Screenshot 2025-01-16 110036.png
+
+# Nested clone of this repository, if recreated locally
+Value-at-Risk-Estimation-for-NIFTY---Autoencoders/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
